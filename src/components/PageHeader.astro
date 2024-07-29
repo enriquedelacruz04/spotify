@@ -2,11 +2,7 @@
 import Icon from "astro-icon";
 ---
 
-<div
-  class="relative z-10 py-4 px-6 flex justify-between"
-  transition:name="page header"
-  transition:persist
->
+<div class="relative z-10 py-4 px-6 flex justify-between" transition:name="page header" transition:persist>
   <a
     href="/"
     aria-label="go back to home page"
@@ -20,9 +16,6 @@ import Icon from "astro-icon";
       href="https://vercel.com/templates/astro/view-transitions"
       class="flex relative overflow-hidden group bg-gradient-to-br from-black/10 to-black/40 rounded-md px-2.5 h-7 text-gray-200 hover:text-white transition-colors gap-1 items-center"
     >
-      <span class="text-xs">
-        Deploy on <span class="font-bold">Vercel</span>
-      </span>
       <Icon name="ion:logo-vercel" class="h-4 w-4" />
     </a>
     <a
